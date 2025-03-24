@@ -63,6 +63,8 @@ p{color:#000;font-size:19px;margin-left:5%;margin-right:5%;text-align:center;pad
 .bb{display:flex;justify-content:center;background-color:#15225e;color:#ffbd5a;font-size:22px;padding:1%;text-decoration:none;border-radius:25px;margin:2% 25%}
 .bb:hover,.bb3:hover{background-color:#15225e;color: #ffbd5a;}
 .bbb:hover,.form-contact button:hover{background-color:#15225e;color: #ffbd5a;}
+.reseau-contact{text-align:center;margin-bottom:7%}
+.reseau-contact a{font-size:13px;color:#fff}
 .liens-wp a,.liens-wp h6{font-size:13px;color:#fff;text-align:center;font-weight:300;margin-top:3%}
 .mobr,.container,.bb,.mobserv, .contact-icon{display:none}
 @media screen and (max-width:767.98px) {
@@ -129,5 +131,7 @@ body{margin-top:17%}
 .liens-wp{margin-bottom:-3%}
 .contact-icon{display:flex;position:fixed;right:4%;bottom:3%;z-index: 5;}
 .contact-icon img{display:block;width:60px;height:60px;border-radius:20px}
+.reseau-contact{text-align:center;margin-bottom:13%}
+.reseau-contact a{font-size:13px;color:#fff}
 .pcr,.servi1,.servi2{display:none}
 }
