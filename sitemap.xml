@@ -10,12 +10,12 @@
             <image:title>Service de rattachement VTC</image:title>
         </image:image>
         <image:image>
-            <image:loc>https://rattachementvtc.fr/tableau-de-bord.jpg</image:loc>
+            <image:loc>https://rattachementvtc.fr/tableau-de-bord.webp</image:loc>
             <image:caption>Suivez votre chiffre d'affaires et vos performances avec notre tableau de bord VTC.</image:caption>
             <image:title>Tableau de bord chauffeur VTC</image:title>
         </image:image>
         <image:image>
-            <image:loc>https://rattachementvtc.fr/reminders.jpg</image:loc>
+            <image:loc>https://rattachementvtc.fr/reminders.webp</image:loc>
             <image:caption>Ne ratez plus aucune échéance grâce à nos rappels automatiques pour chauffeurs VTC.</image:caption>
             <image:title>Rappels administratifs VTC</image:title>
         </image:image>
@@ -30,7 +30,7 @@
             <image:title>Portage salarial chauffeur VTC</image:title>
         </image:image>
         <image:image>
-            <image:loc>https://rattachementvtc.fr/avantages-vtc.jpg</image:loc>
+            <image:loc>https://rattachementvtc.fr/avantages-vtc.webp</image:loc>
             <image:caption>Parrainez des chauffeurs et recevez 100 € dès leur première semaine d’activité.</image:caption>
             <image:title>Parrainage VTC rémunéré</image:title>
         </image:image>
@@ -39,7 +39,7 @@
 <loc>https://rattachementvtc.fr/rattachement-vtc-legal-ou-illegal.html</loc>
     <lastmod>2025-03-24</lastmod>
     <image:image>
-        <image:loc>https://rattachementvtc.fr/avantages-vtc.jpg</image:loc>
+        <image:loc>https://rattachementvtc.fr/avantages-vtc.webp</image:loc>
         <image:caption>Le rattachement VTC est-il légal ? Découvrez la réponse avec VTC Drive.</image:caption>
         <image:title>Rattachement VTC : légal ou illégal ?</image:title>
     </image:image>
@@ -48,7 +48,7 @@
 <loc>https://rattachementvtc.fr/tableau-de-bord.html</loc>
     <lastmod>2025-03-24</lastmod>
     <image:image>
-        <image:loc>https://rattachementvtc.fr/tableau-de-bord.jpg</image:loc>
+        <image:loc>https://rattachementvtc.fr/tableau-de-bord.webp</image:loc>
         <image:caption>Suivez votre chiffre d'affaires et votre activité avec notre tableau de bord VTC.</image:caption>
         <image:title>Tableau de bord chauffeur VTC</image:title>
     </image:image>
@@ -57,7 +57,7 @@
 <loc>https://rattachementvtc.fr/reminders.html</loc>
     <lastmod>2025-03-24</lastmod>
     <image:image>
-        <image:loc>https://rattachementvtc.fr/reminders.jpg</image:loc>
+        <image:loc>https://rattachementvtc.fr/reminders.webp</image:loc>
         <image:caption>Recevez des rappels automatiques pour vos échéances VTC : assurance, carte, plateformes...</image:caption>
         <image:title>Rappels administratifs VTC</image:title>
     </image:image>
