@@ -92,7 +92,7 @@ body{margin-top:17%}
 .icon,.logo,.navbar{display:flex}
 .nav-menu,.navbar{left:0;right:0}
 .navbar{padding:10px;justify-content:space-between;align-items:center;position:fixed;top:0;z-index:1000;height:11%}
-.logo{align-items:center;max-height:150px;min-height:150px;margin-left:0}
+.logo{align-items:center;max-height:130px;min-height:130px;margin-left:0}
 .icon{cursor:pointer;align-items:center}
 .dropdown,.nav-menu,.navbar input{display:none}
 [id^=btn]:checked+ul{display:block}
