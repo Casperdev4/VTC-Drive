@@ -1,3 +1,3 @@
 User-agent: *
 Disallow: /mentions-legales.html
-Sitemap: https://rattachementvtc.fr/sitemap.xml
+Sitemap: https://pro-rattachement-vtc.fr/sitemap.xml
