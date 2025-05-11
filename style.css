@@ -1,6 +1,6 @@
-body{margin:0;padding:0;font-family:'Roboto',sans-serif;background-color:#fff;margin-top:5%}
+body{margin:0;padding:0;font-family:'Montserrat', sans-serif;background-color:#fff;margin-top:5%}
 a{text-decoration:none;font-weight:600}
-h1,h2{color:#000;text-align:center}
+h1,h2{color:#000;text-align:center;text-shadow: 0 4px 6px rgba(0, 0, 0, 0.8)}
 h1,h2,h3,h4{text-align:center}
 h1{font-weight:550;font-size:55px;margin-bottom:5%;margin-top:5%;line-height:1.3}
 h2{font-size:40px;font-weight:530;margin:10% 3% 2%}
@@ -38,7 +38,7 @@ p{color:#000;font-size:19px;margin-left:5%;margin-right:5%;text-align:center;pad
 .nav-menu a:hover,.show:hover{color:#ffbd5a}
 .gg{position:relative;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;height:650px}
 .background-image{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;z-index:-1}
-.gg h1{color:#fff;width:80%;margin-top:auto;z-index:1;font-family:Georgia,serif;background-color:rgba(255,255,255,0.2);border-radius: 10px;}
+.gg h1{color:#fff;width:80%;margin-top:auto;z-index:1;font-family:'Montserrat', sans-serif}
 .servi1{display:flex;align-items:center;margin-top:7%;margin-bottom:7%}
 .servi1 .text{text-align:center}
 .image{width:40%;margin-left:5%;height:260px}
@@ -86,7 +86,7 @@ body{margin-top:17%}
 .text-ind2 h3{font-size:20px;text-align:left;margin:10% 5% 3% 6%}
 .icon-item1{text-align:center;margin:5px 0;position:relative; width: 90%;margin-left: auto;margin-right: auto;padding: 3%;border: solid 1px #9e9e9e;border-radius: 15px;box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);margin-bottom: 4%;}
 .icon-item1 img{width:90%;height:auto;margin-bottom:3%;border-radius: 10px;}
-.icon-item1 p{margin-bottom:2%;font-size:22px;margin-top: 0;}
+.icon-item1 p{margin-bottom:2%;font-size:22px;margin-top: 0;;text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5)}
 .icon-item1:active{background-color: #15225e;}
 .icon-item1:active .strong-color, .icon-item1:active h3{color: #fff;}
 .icon,.logo,.navbar{display:flex}
@@ -118,10 +118,10 @@ body{margin-top:17%}
 .text-ind2 h3{font-size:20px;text-align:left;margin:10% 5% 3% 6%}
 .text-ind h3{margin-top:5%;margin-bottom:7%}
 .text-ind p,.text-ind2 p{text-align:left}
-.bbb{padding:2% 8%;border-radius:25px;text-decoration:none;margin-top:auto;margin-bottom:10%}
+.bbb{padding:2% 8%;border-radius:25px;text-decoration:none;margin-top:auto;margin-bottom:10%;box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5)}
 .bb2{font-size:18px;padding:3%;margin:5% 20% 7%}
-.bb3{display:flex;justify-content:center;font-size:18px;padding:2%;text-decoration:none;margin:5% 15% 10%}
-.bb{display:flex;justify-content:center;font-size:18px;padding:2%;text-decoration:none;margin:10% 20% 13%}
+.bb3{display:flex;justify-content:center;font-size:18px;padding:2%;text-decoration:none;margin:5% 15% 10%;box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5)}
+.bb{display:flex;justify-content:center;font-size:18px;padding:2%;text-decoration:none;margin:10% 20% 13%;box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5)}
 .mobr{display:flex;justify-content:center;margin-bottom:10%}
 .mobr img{width:80%;height:auto;margin:0 2%}
 #contact{padding-top:4%;padding-bottom:4%;margin-top:20%}
