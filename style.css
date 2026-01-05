@@ -67,6 +67,15 @@ p{color:#000;font-size:19px;margin-left:5%;margin-right:5%;text-align:center;pad
 .reseau-contact a{font-size:13px;color:#fff}
 .liens-wp a,.liens-wp h6{font-size:13px;color:#fff;text-align:center;font-weight:300;margin-top:3%}
 .mobr,.container,.bb,.mobserv, .contact-icon{display:none}
+.faq-section{width:90%;max-width:900px;margin:5% auto;padding:2%}
+.faq-section h2{color:#15225e;margin-bottom:3%}
+.faq-item{border:2px solid #15225e;border-radius:10px;margin-bottom:15px;overflow:hidden}
+.faq-item summary{background-color:#15225e;color:#fff;padding:15px 20px;cursor:pointer;font-weight:600;font-size:16px;list-style:none;display:flex;justify-content:space-between;align-items:center}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:'+';font-size:24px;font-weight:700;color:#ffbd5a;transition:transform 0.3s}
+.faq-item[open] summary::after{content:'-'}
+.faq-item[open] summary{background-color:#0d1640}
+.faq-answer{padding:20px;background-color:#fff;color:#000;font-size:15px;line-height:1.7;text-align:left}
 @media screen and (max-width:767.98px) {
 h1,h2{color:#000}
 h4,p{color:#000;text-align:center}
@@ -134,4 +143,9 @@ body{margin-top:17%}
 .reseau-contact{text-align:center;margin-bottom:13%}
 .reseau-contact a{font-size:13px;color:#fff}
 .pcr,.servi1,.servi2{display:none}
+.faq-section{width:95%;margin:10% auto;padding:3%}
+.faq-section h2{font-size:22px;margin-bottom:5%}
+.faq-item summary{padding:12px 15px;font-size:14px}
+.faq-item summary::after{font-size:20px}
+.faq-answer{padding:15px;font-size:14px}
 }
