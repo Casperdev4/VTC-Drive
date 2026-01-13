@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nRefonte du menu navigation desktop/mobile\n\n- Nouveau design navbar avec fond degrade bleu\n- Animation burger en croix \\(CSS pur\\)\n- Menu mobile slide depuis la droite avec overlay\n- JavaScript allege \\(3 lignes\\)\n- Mise a jour sitemap\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}

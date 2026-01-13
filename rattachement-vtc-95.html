@@ -170,35 +170,30 @@
     <header>
         <nav class="navbar">
             <a href="https://pro-rattachement-vtc.fr/" class="logo-link">
-                <img src="vtc-drive.webp" alt="location vtc avec rattachement" class="logo" loading="lazy"
-                    decoding="async">
+                <img src="vtc-drive.webp" alt="location vtc avec rattachement" class="logo">
             </a>
-            <label for="btn" class="icon">
-                <svg viewBox="0 0 100 80" width="40" height="40">
-                    <rect width="80" height="11"></rect>
-                    <rect y="26" width="60" height="11"></rect>
-                    <rect y="52" width="50" height="11"></rect>
-                </svg>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
             </label>
-            <input type="checkbox" id="btn">
+            <div class="menu-overlay"></div>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="https://pro-rattachement-vtc.fr/"
-                        title="rattachement compte uber 95 Val-d'Oise">ACCUEIL</a>
+                    <a href="https://pro-rattachement-vtc.fr/" title="rattachement compte uber 95 Val-d'Oise">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://pro-rattachement-vtc.fr/#prestation"
-                        title="rattachement compte vtc 95 Val-d'Oise">SERVICES</a>
+                    <a href="https://pro-rattachement-vtc.fr/#prestation" title="rattachement compte vtc 95 Val-d'Oise">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a href="vtc-drive-rattachement-vtc.html" title="vtc drive 95 Val-d'Oise">L'ENTREPRISE</a>
+                    <a href="vtc-drive-rattachement-vtc.html" title="vtc drive 95 Val-d'Oise">L'Entreprise</a>
                 </li>
                 <li class="nav-item">
                     <a href="tel:+33958785389" title="prix rattachement vtc 95 Val-d'Oise">07 58 78 53 89</a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://wa.me/message/VLV2E5ZBO2CZM1"
-                        title="prix rattachement vtc 95 Val-d'Oise">WhatsApp</a>
+                    <a href="https://wa.me/message/VLV2E5ZBO2CZM1" title="prix rattachement vtc 95 Val-d'Oise">WhatsApp</a>
                 </li>
             </ul>
         </nav>
@@ -484,24 +479,8 @@
         </div>
     </footer>
     <script>
-        const list = document.querySelectorAll('.list');
-        function activeLink() {
-            list.forEach((item) =>
-                item.classList.remove('active'));
-            this.classList.add('active');
-        }
-        list.forEach((item) =>
-            item.addEventListener('mouseover', activeLink));
-    </script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            var menuToggle = document.getElementById("btn");
-            var navLinks = document.querySelectorAll(".nav-menu a");
-            navLinks.forEach(function (link) {
-                link.addEventListener("click", function () {
-                    menuToggle.checked = false;
-                });
-            });
+        document.querySelectorAll('.nav-menu a, .menu-overlay').forEach(el => {
+            el.addEventListener('click', () => document.getElementById('menu-toggle').checked = false);
         });
     </script>
     <script>
